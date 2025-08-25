@@ -1,0 +1,20 @@
+name: amp-env
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8    # 根据你的 GPU 驱动版本调整
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - scikit-learn
+  - opencv
+  - tensorboard
+  - seaborn
+  - pyyaml
